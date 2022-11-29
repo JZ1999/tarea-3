@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-200">
+    <div class="mx-44 mt-44">
+        <!-- Titulo -->
+        <div class="font-semibold text-neutral-700 text-xl">Responsive Form</div>
+        <div class="text-l text-neutral-500 font-medium">Form is mobile responsive. Give it a try</div>
+
+        <!-- Contenedor -->
+        <div class="bg-white flex pl-10 py-10 mt-7 shadow-lg">
+            <!-- Primer columna -->
+            <div class="flex-initial mr-40">
+                <p class="text-lg text-neutral-500 font-medium">Personal Details</p>
+                <p class="text-l text-neutral-500 font-medium">Please fill out all of the fields</p>
+            </div>
+            <!-- Segunda columna -->
+            <div class="flex-initial">
+                <form class="flex flex-row flex-wrap">
+                    <label class="basis-full font-medium">Full Name</label>
+                    <input class="h-10 basis-full border border-gray-600 bg-gray-200 rounded-md">
+
+                    <label class="basis-full font-medium mt-3">Email Address</label>
+                    <input type="email" placeholder="email@domain.com" class="h-10 basis-full border border-gray-600 bg-gray-200 rounded-md">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
